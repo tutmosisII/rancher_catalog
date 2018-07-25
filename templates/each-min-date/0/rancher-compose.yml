@@ -1,0 +1,10 @@
+.catalog:
+  name: "Fecha cada minuto"
+  version: "v1.0.0"
+  description: "Contenedor que imprime la fecha en consol"
+  uuid: tutmosisii-emin
+  minimum_rancher_version: v1.6.11
+  questions:
+
+eachmin:
+  scale: 1

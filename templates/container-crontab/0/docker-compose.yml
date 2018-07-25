@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ccrontab:
+    labels:      
+      io.rancher.scheduler.global: 'true'
+    tty: true
+    image: rancher/container-crontab:v0.5.0
+    stdin_open: true
+    command: container-crontab --rancher-mode [--metadata-url http://rancher-metadata/latest]
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"

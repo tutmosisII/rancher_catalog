@@ -1,0 +1,6 @@
+name: Container Crontab
+description: |
+   Image with rancher/container-crontab v0.5.0
+version: v3.0.0-Rancher
+category: Standalone Service
+maintainer: Alejandro León

@@ -1,0 +1,6 @@
+name: Imprime Fecha
+description: |
+   Tara periódica que imprime la fecha cada minuto
+version: v3.0.0-Rancher
+category: Standalone Service
+maintainer: Alejandro León

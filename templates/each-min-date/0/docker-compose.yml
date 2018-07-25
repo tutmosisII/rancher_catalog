@@ -1,0 +1,9 @@
+version: '2'
+services:
+  eachmin:
+    image: busybox
+    command: date
+    labels:
+    # Expresión de tiempo para ejecutar esta tarea(imprimir fecha)
+      cron.schedule: 0 * * * * ?
+      io.rancher.container.start_once: true
